@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p class="big">Yoru</p>
+        <p class="big">안녕하세요,<br />저는 요루라고 해요.</p>
         <Button
           style={{
             backgroundColor: 'whitesmoke',
