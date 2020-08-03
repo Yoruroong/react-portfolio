@@ -1,0 +1,21 @@
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install node v12
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: npm i
+      run: npm install
+    - name: Build
+      run: npm run build
+      env:
+        CI: false
