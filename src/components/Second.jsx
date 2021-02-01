@@ -8,7 +8,7 @@ function App() {
         <h1>프로젝트들</h1>
         <Card style={{ width: '18rem' }}>
           <Card.Body>
-            <img alt="parkbot-image" className="projects-image" src="https://vue-iam.yoru.pe.kr/img/parkbot.f95ddd4b.jpg" />
+            <img alt="parkbot" className="projects-image" src="https://vue-iam.yoru.pe.kr/img/parkbot.f95ddd4b.jpg" />
             <Card.Title style={{ marginTop: '10px' }}>파크봇</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">디스코드를 흥겹게</Card.Subtitle>
             <Card.Link href="#">Github</Card.Link>
