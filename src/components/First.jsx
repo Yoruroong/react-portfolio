@@ -1,17 +1,11 @@
 import React from 'react';
-import './First.css';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import MailIcon from '@material-ui/icons/Mail';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p class="big bold">안녕하세요,<br />저는 요루라고 해요.</p>
-        <div style={{float: 'left', margin:'-15px'}}>
-          <a href='http://github.com/Yoruroong' style={{color: 'whitesmoke', marginRight:'10px'}}><GitHubIcon color="black"/></a>
-          <a href="mailto:yoru@outlook.kr" style={{color: 'whitesmoke'}}><MailIcon color="black" /></a>
-        </div>
+    <div className="App App-first-container">
+      <header className="App-first">
+        <h1 style={{ marginTop: '20px' }}>저는 요루라고 해요.</h1>
+        <p>그저 대한민국에 살고 있는 평범한 학생이에요.</p>
       </header>
     </div>
   );
