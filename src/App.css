@@ -63,9 +63,9 @@
     height: 1000px;
     width: 77vw;
     display: flex;
-    margin:0 auto;
-    flex-direction: column;
+    margin: 0 auto;
     font-size: auto;
+    flex-direction: inherit;
     color: black;
     font-family: 'Noto Sans KR', sans-serif !important;
   }
