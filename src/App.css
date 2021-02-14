@@ -19,6 +19,18 @@
   height: 57vh;
 }
 
+.App-contact {
+  background-color: white;
+  height: 270px;
+  width: 77vw;
+  display: flex;
+  margin: 0 auto;
+  font-size: auto;
+  flex-direction: inherit;
+  color: black;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
 @media ( min-width: 768px ) {
   .App-first {
     background-color: white;
